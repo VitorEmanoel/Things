@@ -1,5 +1,5 @@
 # Things
-🎈 Things I do when someone asks, that's all.
+🎈 Things I do when someone asks, that's all./
 
 ## Time
 Format your milliseconds in a way that any human can read through.
