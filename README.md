@@ -3,11 +3,9 @@ Things I do when someone asks, that's all.\
 In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.<br/>
 <br/>
 
-## Step
+### Step
 In Kotlin there are some things that Java does not have that are extremely useful.\
-One of them is step, until, and other functions, this class adds some of these functions in a simplified and functional way.
-
-### Example:
+One of them is step, until, and other functions, this class adds some of these functions in a simplified and functional way.<br/>
 ```java
 Step.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) // collection or array
                 .in(0, 10) // AKA between
@@ -37,8 +35,6 @@ Step.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) // collection or array
                     }
                 });
 ```
-
-### Output:
 ```
 Index (loop: 8, original: 0)
 To infinity and beyond!
@@ -49,10 +45,8 @@ They cut my cheap = (
 ```
 ***
 
-## Time
-Format your milliseconds in a way that any human can read through.
-
-### Example:
+### Time
+Format your milliseconds in a way that any human can read through.<br/>
 ```java
 long millis = 1000;
 Random r = new Random();
@@ -69,8 +63,6 @@ for(int j = 0; j < 10; j++) {
     millis += TimeUnit.DAYS.toMillis(1);
 }
 ```
-
-### Output:
 ```
 We have: 1 seconds 
 We have: 1 seconds, 32 minutes, 2 hours and 1 days
