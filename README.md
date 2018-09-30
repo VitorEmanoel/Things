@@ -1,6 +1,6 @@
 # Things
-Things I do when someone asks, that's all.
-In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.
+Things I do when someone asks, that's all.\
+In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.\
 
 
 ## Time
