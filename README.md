@@ -1,5 +1,7 @@
 # Things
-🎈 Things I do when someone asks, that's all./
+Things I do when someone asks, that's all.
+In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.
+
 
 ## Time
 Format your milliseconds in a way that any human can read through.
