@@ -1,4 +1,4 @@
-package me.devnatan.tests.time;
+package me.devnatan.things.time;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

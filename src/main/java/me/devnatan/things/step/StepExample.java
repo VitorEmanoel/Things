@@ -1,4 +1,4 @@
-package me.devnatan.tests.step;
+package me.devnatan.things.step;
 
 public class StepExample {
 

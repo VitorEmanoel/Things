@@ -1,4 +1,4 @@
-package me.devnatan.tests.time;
+package me.devnatan.things.time;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
