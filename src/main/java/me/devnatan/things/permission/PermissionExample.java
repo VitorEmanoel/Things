@@ -12,9 +12,14 @@ public class PermissionExample {
                 Permission.DELETE
         );
 
+        /*
+            Save "val" in database.
+            Load with "Permission#fromVal" which returns a Collection.
+          */
         int val = permissioned.getPermissionsVal();
         System.out.println("Permissions: " + prettyBuild(permissioned.getPermissions().toArray(new Permission[0]), Enum::name, ",", "and"));
-        System.out.println("Value: " + val);
+        System.out.println("Value (save this in database): " + val);
+
 
         for(Permission p : Permission.values()) {
             System.out.println("Has permission " + p.name() + "?: " + Permission.hasVal(p.id, val));
