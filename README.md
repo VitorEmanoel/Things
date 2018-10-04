@@ -3,6 +3,33 @@ Things I do when someone asks, that's all.\
 In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.<br/>
 <br/>
 
+### Permission
+Make an enumerated system of permissions that can be saved to a database using only a number!
+```java
+Permissioned permissioned = () -> Arrays.asList(
+                Permission.WRITE,
+                Permission.ADD,
+                Permission.DELETE
+        );
+
+        int val = permissioned.getPermissionsVal();
+        System.out.println("Permissions: " + prettyBuild(permissioned.getPermissions().toArray(new Permission[0]), Enum::name, ",", "and"));
+        System.out.println("Value: " + val);
+
+        for(Permission p : Permission.values()) {
+            System.out.println("Has permission " + p.name() + "?: " + Permission.hasVal(p.id, val));
+        }
+```
+```
+Permissions: WRITE, ADD and DELETE
+Value (save this in database): 14
+Has permission READ?: false
+Has permission WRITE?: true
+Has permission DELETE?: true
+Has permission ADD?: true
+```
+
+***
 ### Step
 In Kotlin there are some things that Java does not have that are extremely useful.\
 One of them is step, until, and other functions, this class adds some of these functions in a simplified and functional way.<br/>
