@@ -7,18 +7,18 @@ In case you want to add anything here make a Pull Request that I will analyze it
 Make an enumerated system of permissions that can be saved to a database using only a number!
 ```java
 Permissioned permissioned = () -> Arrays.asList(
-                Permission.WRITE,
-                Permission.ADD,
-                Permission.DELETE
-        );
+  Permission.WRITE,
+  Permission.ADD,
+  Permission.DELETE
+);
 
-        int val = permissioned.getPermissionsVal();
-        System.out.println("Permissions: " + prettyBuild(permissioned.getPermissions().toArray(new Permission[0]), Enum::name, ",", "and"));
-        System.out.println("Value: " + val);
+int val = permissioned.getPermissionsVal();
+System.out.println("Permissions: " + prettyBuild(permissioned.getPermissions().toArray(new Permission[0]), Enum::name, ",", "and"));
+System.out.println("Value: " + val);
 
-        for(Permission p : Permission.values()) {
-            System.out.println("Has permission " + p.name() + "?: " + Permission.hasVal(p.id, val));
-        }
+for(Permission p : Permission.values()) {
+  System.out.println("Has permission " + p.name() + "?: " + Permission.hasVal(p.id, val));
+}
 ```
 ```
 Permissions: WRITE, ADD and DELETE
