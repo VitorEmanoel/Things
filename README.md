@@ -3,7 +3,7 @@ Things I do when someone asks, that's all.\
 In case you want to add anything here make a Pull Request that I will analyze it and maybe accept it.<br/>
 <br/>
 
-### Permission
+## Permission
 Make an enumerated system of permissions that can be saved to a database using only a number!
 ```java
 Permissioned permissioned = () -> Arrays.asList(
@@ -34,7 +34,7 @@ Has permission ADD?: true
 ```
 
 ***
-### Step
+## Step
 In Kotlin there are some things that Java does not have that are extremely useful.\
 One of them is step, until, and other functions, this class adds some of these functions in a simplified and functional way.<br/>
 ```java
@@ -76,7 +76,7 @@ They cut my cheap = (
 ```
 ***
 
-### Time
+## Time
 Format your milliseconds in a way that any human can read through.<br/>
 ```java
 long millis = 1000;
